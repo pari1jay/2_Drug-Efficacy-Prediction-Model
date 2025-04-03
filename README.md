@@ -1,7 +1,7 @@
 # Efficacy-Prediction-Model
 
 ### 1. Efficacy Prediction Model 
-### 1. Efficacy Prediction Model 
+
 - Check Efficacy using a pre-processed dataset (CA, CM, CI classes) from [Moleculenet.ai](https://wiki.nci.nih.gov/spaces/NCIDTPdata/pages/158204006/AIDS+Antiviral+Screen+Data)
 - Merge Data: Link NSC across files to combine screening results, EC50/IC50, and structures.
 - Filter Compounds: Focus on CA/CM for active candidates.
