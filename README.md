@@ -18,3 +18,9 @@
 - training base models, check with test data/.
 - Evaluated models using accuracy, F1-score, and Cohen’s kappa, aligning predictive insights with clinical research 
 objectives. 
+
+### F1-score : 
+A balance between precision and recall — especially useful when the classes (e.g., active vs. inactive compounds) are imbalanced. It ensures the model isn't just accurate, but also reliably identifies true positives without too many false alarms.
+
+### Cohen’s Kappa : 
+Measures how well your model agrees with actual labels beyond chance. It's a more robust metric than accuracy when classes are uneven or when guessing could yield misleading results.
