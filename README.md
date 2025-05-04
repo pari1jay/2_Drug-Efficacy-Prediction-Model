@@ -1,4 +1,7 @@
-# Efficacy-Prediction-Model
+# 🧪 HIV Drug Effectiveness Prediction using Machine Learning
+### 🚀 Project Goal
+Build a machine learning model to predict which chemical compounds can fight HIV effectively, helping researchers focus on the most promising candidates and skip compounds that likely won't work.
+
 
 ### 1. Efficacy Prediction Model 
 
@@ -24,3 +27,6 @@ A balance between precision and recall — especially useful when the classes (e
 
 ### Cohen’s Kappa : 
 Measures how well your model agrees with actual labels beyond chance. It's a more robust metric than accuracy when classes are uneven or when guessing could yield misleading results.
+
+## 💡 Why This Matters
+This tool helps scientists focus lab efforts only on promising compounds, accelerating the HIV drug discovery process — just like a spam filter helps skip useless emails.
