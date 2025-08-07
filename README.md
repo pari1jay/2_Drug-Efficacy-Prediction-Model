@@ -1,10 +1,35 @@
-# 🧪 Drug Effectiveness Prediction using Machine Learning 🧪
 ### Project Goal
-Build a machine learning model to predict which chemical compounds can fight HIV effectively, helping researchers focus on the most promising candidates and skip compounds that likely won't work.
+####  End-to-End ML Pipeline with Model Deployment
+Project scope:
 
-### Efficacy Prediction Model 
+- Build complete QSAR prediction system (EC50/IC50 prediction)
+- Include data preprocessing, feature engineering, model training, and deployment
+- Create REST API for molecular property predictions
+- Add model monitoring and retraining capabilities
+- Implement A/B testing framework for model comparison
 
+skills: Shows full-stack ML engineering skills, not just modeling
+Technical stack: Python, FastAPI/Flask, Docker, AWS/GCP, MLflow, PostgreSQL
+
+### This Dataset allows for Industry-Relevant Skills Demonstration
 - Check Efficacy using a pre-processed dataset (CA, CM, CI classes) from [Moleculenet.ai](https://wiki.nci.nih.gov/spaces/NCIDTPdata/pages/158204006/AIDS+Antiviral+Screen+Data)
+
+
+This dataset is particularly demonstrates:
+- Real pharmaceutical data experience
+- Regulatory-compliant dataset (publicly available, no IP issues)
+- Large-scale data handling (40K+ compounds)
+- Multi-modal learning (structure + activity data)
+- Biomedical domain knowledge
+
+### Procedure: 
+Data Sources → Data Pipeline → Feature Store → Model Training → Model Registry → Deployment → Monitoring
+     ↓              ↓              ↓              ↓              ↓              ↓              ↓
+  Raw CSV       Preprocessing    Molecular      Multiple       MLflow       FastAPI      Grafana
+  Files          & Validation    Descriptors    Models         Registry      REST API     Dashboard
+
+
+
 - Merge Data: Link NSC across files to combine screening results, EC50/IC50, and structures.
 - Filter Compounds: Focus on CA/CM for active candidates.
 - Calculate Selectivity Index (SI): SI = IC50/EC50 to identify compounds with high efficacy and low toxicity.
@@ -21,11 +46,4 @@ Build a machine learning model to predict which chemical compounds can fight HIV
  - Training base models, check with test data.
  - Evaluated models using accuracy, F1-score, and Cohen’s kappa, aligning predictive insights with clinical research. 
 
-### F1-score : 
-A balance between precision and recall especially useful when the classes (e.g., active vs. inactive compounds) are imbalanced. It ensures the model isn't just accurate, but also reliably identifies true positives without too many false alarms.
 
-### Cohen’s Kappa : 
-Measures how well the model agrees with actual labels beyond chance. It's a more robust metric than accuracy when classes are uneven or when guessing could yield misleading results.
-
-## 💡 Why This Matters
-This tool helps scientists focus lab efforts only on promising compounds, accelerating the drug discovery process just like a spam filter helps skip useless emails.
