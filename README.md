@@ -1,4 +1,4 @@
-# 🧪 HIV Drug Effectiveness Prediction using Machine Learning 🧪
+# 🧪 Drug Effectiveness Prediction using Machine Learning 🧪
 ### Project Goal
 Build a machine learning model to predict which chemical compounds can fight HIV effectively, helping researchers focus on the most promising candidates and skip compounds that likely won't work.
 
