@@ -23,11 +23,7 @@ This dataset is particularly demonstrates:
 - Biomedical domain knowledge
 
 ### Procedure: 
-Data Sources → Data Pipeline → Feature Store → Model Training → Model Registry → Deployment → Monitoring
-     ↓              ↓              ↓              ↓              ↓              ↓              ↓
-  Raw CSV       Preprocessing    Molecular      Multiple       MLflow       FastAPI      Grafana
-  Files          & Validation    Descriptors    Models         Registry      REST API     Dashboard
-
+Data Sources(raw csv files) → Data Pipeline(preprocessing and validation) → Feature Store(molecular descriptors) → Model Training(multiple models) → Model Registry(MLflow registry) → Deployment(FastAPI, REST API) → Monitoring (Grafana Dashboard)
 
 
 - Merge Data: Link NSC across files to combine screening results, EC50/IC50, and structures.
